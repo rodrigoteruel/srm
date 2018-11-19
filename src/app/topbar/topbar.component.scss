@@ -1,0 +1,65 @@
+.dropstyle{
+    color: gray;
+    background-color: unset;
+    border-radius: 0px;
+    border: 1px solid rgb(153, 169, 229);
+}
+.dropstyle2{
+    color:  white;
+    background-color:  rgb(0, 35, 61);
+    border-radius: 0px;
+}
+.dropstyle3{
+    color:  white;
+    background-color:  rgb(73, 151, 209);
+    border-radius: 0px;
+    height: 56px;
+    padding: 0px;
+}
+
+
+
+a.fa-bell {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  span.fa-comment {
+    position: absolute;
+    font-size: 20px;
+    top: -3px;
+    color: red;
+    right: -4px;
+  }
+  span.num {
+    position: absolute;
+    font-size: 12px;
+    top: 0px;
+    color: #fff;
+    right: 2px;
+  }
+  .topcontent{
+    background-color:rgb(255, 255, 255); height: 120px; padding-top: 30px;
+  }
+  .pddr15{
+    padding-right: 15px;
+  }
+  .setright{
+      text-align: right;
+  }
+  img{
+    height: 40px; margin-top: 10px;
+  }
+  .pddt4{
+    padding-top: 4px;
+  }
+  i{
+    color: rgb(153, 169, 229);
+  }
+  .pddl-pddr-15{
+    padding-left: 15px; padding-right: 15px;
+  }
+  .white{
+    color: white;
+  }

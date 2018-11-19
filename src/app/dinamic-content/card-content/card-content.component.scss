@@ -1,0 +1,67 @@
+.card{
+    border-radius: 0px !important;    
+    box-shadow: -6px -6px 6px -6px #333;   
+    min-height: 420px; 
+}
+h4{
+    color: rgb(0, 35, 61);
+    font-family: sans-serif;
+    padding-top: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.alerts{
+    color: rgb(127,161,220) !important;
+}
+.titlebar{
+ min-height: 80px;
+ border-bottom: 1px solid rgb(225,225,225);
+ padding: 0px;
+}
+.card-body{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.dropstyle{
+    color: gray;
+    background-color: unset;
+    border-radius: 0px;
+    border: 1px solid rgb(153, 169, 229);
+    text-align: center; height: 30px;
+}
+.cardcontent{
+    height: 145px; padding-top: 15px;
+}
+.groupbuttons{
+    padding-top: 30px;
+}
+.contentbuttons{
+    padding-top: 5px; padding-bottom: 5px;
+}
+label{
+    font-size: 12px;
+}
+.setright{
+    text-align: right;
+}
+.labelfive{
+    padding-top: 15px; padding-right: 15px; font-size: 12px;
+}
+span{
+    color: rgb(0, 35, 61); font-size: 12px;
+}
+.canceled{
+    padding-top: 10px; padding-bottom: 10px;
+}
+.pddt15{
+    padding-top: 15px;
+}
+hr{
+    border-bottom: 1px solid rgb(225,225,225);
+}
+.h30{
+    height: 30px;
+}
+i{
+    padding-left: 50px; color: rgb(153, 169, 229);
+}

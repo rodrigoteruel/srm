@@ -1,0 +1,132 @@
+<div class="container-fluid cardcontent">
+    <div class="row">
+        <div class="col-sm-7 col-md-7 col-lg-7">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 titlebar">
+                            <h4 class="col-sm-12 col-md-12 col-lg-12">Atalhos</h4>
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8 groupbuttons">
+                            <span>Operacional</span>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Envio</label>
+                                    </button>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Assinatura</label>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Envio de Duplicatas</label>
+                                    </button>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Assinatura Digital</label>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Nova Operação</label>
+                                    </button>
+                                </div>
+                                <div class="col-sm-6 col-md-6 col-lg-6 contentbuttons">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4 groupbuttons border-left">
+                            <span>Geral</span>
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Carteira</label>
+                                    </button>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12 contentbuttons">
+                                    <button class="dropstyle col-12" type="button" aria-haspopup="true" aria-expanded="false">
+                                        <label>Instruções</label>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5 ">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-7 col-md-7 col-lg-7 titlebar">
+                            <h4 class="col-sm-12 col-md-12 col-lg-12 alerts">Alertas</h4>
+                        </div>
+                        <div class="col-sm-5 col-md-5 col-lg-5 titlebar setright">
+                            <label class="col-sm-12 col-md-12 col-lg-12 labelfive">Últimos
+                                5 dias</label>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-12 canceled">
+                                    <span class="pddt15">23 Notas
+                                        Canceladas</span>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <hr>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6 col-lg-6">
+                                            <span>13 Notas Canceladas</span>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-6 setright">
+                                            <button class="dropstyle col-12 setright h30" type="button" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                <label>Ações</label>
+                                                <i class="fas fa-angle-down"></i>
+                                            </button>
+                                            <div class="dropdown-menu col-11" aria-labelledby="dropdownMenuOffset">
+                                                <a *ngFor="let acao of acoes1" class="dropdown-item col-11" href="{{acao.ref}}">{{acao.acao}}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <hr>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6 col-lg-6">
+                                            <span>7 Assinaturas Digital</span>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6 col-lg-6 setright">
+                                            <button class="dropstyle col-12 setright h30" type="button" data-toggle="dropdown"
+                                                aria-haspopup="true" aria-expanded="false">
+                                                <label>Ações</label>
+                                                <i class="fas fa-angle-down"></i>
+                                            </button>
+                                            <div class="dropdown-menu col-11" aria-labelledby="dropdownMenuOffset">
+                                                <a *ngFor="let acao2 of acoes2" class="dropdown-item col-11" href="{{acao2.ref}}">{{acao2.acao}}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

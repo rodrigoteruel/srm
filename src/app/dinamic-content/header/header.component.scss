@@ -1,0 +1,79 @@
+.separator{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+span{
+    color: rgb(142,146,151);
+}
+i{
+    color: rgb(0, 35, 61);
+}
+h2{
+    color: rgb(0, 35, 61);
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+
+
+.dropstyle{
+    color: gray;
+    background-color: unset;
+    border-radius: 0px;
+    border: 1px solid rgb(153, 169, 229);
+    width: 220px !important;
+}
+.dropstyle2{
+    color:  white;
+    background-color:  rgb(0, 35, 61);
+    border-radius: 0px;
+}
+.dropstyle3{
+    color:  white;
+    background-color:  rgb(73, 151, 209);
+    border-radius: 0px;
+    height: 56px;
+    padding: 0px;
+}
+
+
+
+a.fa-bell {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+  }
+  span.fa-comment {
+    position: absolute;
+    font-size: 20px;
+    top: -3px;
+    color: red;
+    right: -4px;
+  }
+  span.num {
+    position: absolute;
+    font-size: 12px;
+    top: 0px;
+    color: #fff;
+    right: 2px;
+  }
+
+  .headercontent{
+    height: 145px; padding-top: 15px;
+  }
+  .pddt30{
+    padding-top: 30px;
+  }
+  .setcenter{
+    text-align: center;
+  }
+  .setright{
+      text-align: right;
+  }
+  .pddr-pddt-15{
+    padding-right: 15px; padding-top: 15px;
+  }
+  .arrow{
+    padding-left: 50px; color: rgb(153, 169, 229);
+  }

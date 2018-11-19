@@ -1,0 +1,87 @@
+.form-control{
+    border: 0px !important;
+    text-align: right !important;
+
+}
+.search{
+    background-color: unset !important;
+    border: unset !important;
+}
+.menu{
+    background-color: unset;
+    color: white;
+    border-color: rgb(49, 113, 161);
+    text-align: left;
+    font-weight: bolder;
+    height: 60px; 
+    padding-right: 0px; 
+    padding-left: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    .arrow{
+        right: 0px;
+        position: absolute;
+        font-size: 30px;
+        color: rgb(0 , 35 , 61 ); 
+    }
+}
+.menu:focus{
+    background-color: unset;
+    color:rgb(235, 235, 235);
+    border-color: rgb(49, 113, 161);
+    text-align: left;
+    font-weight: bolder; 
+    height: 60px;
+    padding-right: 0px; 
+    padding-left: 10px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    .arrow{
+        right: 0px;
+        position: absolute;
+        color:rgb(235, 235, 235);
+    }
+}
+.secondary-collor{
+    color: rgb(49, 113, 161);
+}
+.menu-style{
+    background-color: rgb(0 , 35 , 61 ); 
+    color: white; 
+    min-height: 600px;
+}
+.no-padding{
+    padding: 0px;
+}
+.npl{
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.npr{
+    padding-right: 0px;
+    margin-top: 20px;
+}
+.nmlr{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.p10tmt29{
+    padding-top: 10px;
+}
+.p10b{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.search-icon-collor{
+    color: rgb(138, 138, 138);
+}
+.optionmenu{
+    text-align: center;
+    padding-top: 5px;
+}
